@@ -19,7 +19,7 @@ export default function App() {
           </div>
           <div className="text-white text-sm">
             <Calendar className="inline mr-2" size={18} />
-            Holiday Season 2024-2025
+            Holiday Season 2025-2026
           </div>
         </div>
       </header>
@@ -173,7 +173,7 @@ export default function App() {
             <span className="text-orange-500">Ex</span>
           </div>
           <p className="text-sm">
-            Christmas & New Year Grant Rewards Program | Holiday Season 2024-2025
+            Christmas & New Year Grant Rewards Program | Holiday Season 2025-2026
           </p>
           <p className="text-xs mt-4 text-gray-500">
             © {new Date().getFullYear()} FedEx Grant Program. All rights reserved.
@@ -182,4 +182,4 @@ export default function App() {
       </footer>
     </div>
   );
-}
+                }
