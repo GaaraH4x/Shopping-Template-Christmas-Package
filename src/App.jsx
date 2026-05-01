@@ -145,7 +145,7 @@ export default function App() {
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 mb-8 border border-white/20">
-            <p className="text-2xl font-bold text-white mb-2">Mr. Thomas</p>
+            <p className="text-2xl font-bold text-white mb-2">Mr. Daily Hive</p>
             <p className="text-lg text-purple-100 mb-1">Program Coordinator</p>
             <a 
               href="mailto:sanusiemmanuel2008@gmail.com" 
