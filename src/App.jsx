@@ -3,8 +3,8 @@ import { Gift, Award, Calendar, Mail } from 'lucide-react';
 
 export default function App() {
   const handleContactClick = () => {
-    const subject = encodeURIComponent("Good day Sir\nI'm here to enroll for the FedEx Christmas/New Year Grant Rewards\n\nMy name is ");
-    window.location.href = `mailto:thomasreeffedex@gmail.com?subject=${subject}`;
+    const subject = encodeURIComponent("Good day Sir\nI'm here to enroll for the FedEx European Elder Grant Rewards\n\nMy name is ");
+    window.location.href = `mailto:sanusiemmanuel2008@gmail.com?subject=${subject}`;
   };
 
   return (
@@ -19,7 +19,7 @@ export default function App() {
           </div>
           <div className="text-white text-sm">
             <Calendar className="inline mr-2" size={18} />
-            Holiday Season 2025-2026
+            May - June 2026-2027
           </div>
         </div>
       </header>
@@ -31,12 +31,12 @@ export default function App() {
             <Gift size={80} className="animate-pulse" />
           </div>
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Christmas & New Year
+            European Elder
             <br />
             <span className="text-orange-300">Grant Rewards Program</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-purple-100">
-            Celebrating the Holiday Season with Our Valued Community
+            Supporting our European Elders
           </p>
         </div>
       </section>
@@ -61,7 +61,7 @@ export default function App() {
                 Exclusive Rewards
               </h3>
               <p className="text-gray-600 text-center">
-                Special grant packages designed to support and reward our community members during the festive season.
+                Special grant packages designed to support and reward our european family.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ export default function App() {
                 Limited Time Offer
               </h3>
               <p className="text-gray-600 text-center">
-                Available exclusively for the Christmas and New Year holiday season. Don't miss this opportunity!
+                Available exclusively for European citizens above 50 years of age. Don't miss this opportunity!
               </p>
             </div>
 
@@ -101,7 +101,7 @@ export default function App() {
                   ✓
                 </div>
                 <p className="text-lg text-gray-700">
-                  Comprehensive grant packages tailored for the holiday season
+                  Comprehensive grant packages tailored for Our European brothers and Sisters.
                 </p>
               </div>
               <div className="flex items-start space-x-4">
@@ -141,17 +141,17 @@ export default function App() {
             Ready to Enroll?
           </h2>
           <p className="text-xl text-purple-100 mb-8">
-            For more information and to register for the FedEx Christmas/New Year Grant Rewards Program, please contact our program coordinator:
+            For more information and to register for the FedEx European Elder Grant Rewards Program, please contact our program coordinator:
           </p>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-lg p-8 mb-8 border border-white/20">
             <p className="text-2xl font-bold text-white mb-2">Mr. Thomas</p>
             <p className="text-lg text-purple-100 mb-1">Program Coordinator</p>
             <a 
-              href="mailto:thomasreeffedex@gmail.com" 
+              href="mailto:sanusiemmanuel2008@gmail.com" 
               className="text-orange-300 hover:text-orange-200 text-lg font-semibold"
             >
-              thomasreeffedex@gmail.com
+              CONTACT COORDINATOR
             </a>
           </div>
 
@@ -160,7 +160,7 @@ export default function App() {
             className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-lg text-xl shadow-2xl transform hover:scale-105 transition-all duration-200 flex items-center space-x-3 mx-auto"
           >
             <Mail size={24} />
-            <span>Contact Mr. Thomas</span>
+            <span>Contact Mr. Daily Hive</span>
           </button>
         </div>
       </section>
@@ -173,7 +173,7 @@ export default function App() {
             <span className="text-orange-500">Ex</span>
           </div>
           <p className="text-sm">
-            Christmas & New Year Grant Rewards Program | Holiday Season 2025-2026
+            European Elder Grant Rewards Program | Fed-Eur Support 2026
           </p>
           <p className="text-xs mt-4 text-gray-500">
             © {new Date().getFullYear()} FedEx Grant Program. All rights reserved.
