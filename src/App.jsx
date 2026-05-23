@@ -148,7 +148,7 @@ export default function App() {
             <p className="text-2xl font-bold text-white mb-2">Mr. Daily Hive</p>
             <p className="text-lg text-purple-100 mb-1">Program Coordinator</p>
             <a 
-              href="mailto:sanusiemmanuel2008@gmail.com" 
+              href="mailto:fishparques@gmail.com" 
               className="text-orange-300 hover:text-orange-200 text-lg font-semibold"
             >
               CONTACT COORDINATOR
